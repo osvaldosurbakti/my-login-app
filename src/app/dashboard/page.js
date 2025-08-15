@@ -61,7 +61,7 @@ export default function DashboardPage() {
 
     window.addEventListener('storage', handleStorageChange);
     return () => window.removeEventListener('storage', handleStorageChange);
-  }, []);
+  }, [router]);
 
   async function fetchData() {
   try {

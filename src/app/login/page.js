@@ -187,7 +187,7 @@ export default function LoginPage() {
 
         <div className="px-6 py-4 bg-gray-50 text-center">
           <p className="text-sm text-gray-600">
-            Don't have an account?{' '}
+            Don{"'"}t have an account?{' '}
             <a
               href="/register"
               className="font-medium text-indigo-600 hover:text-indigo-500"
